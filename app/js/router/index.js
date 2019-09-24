@@ -23,4 +23,7 @@ export default new Router({
       component: Ious,
     }
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
