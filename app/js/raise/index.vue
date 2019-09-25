@@ -2,6 +2,9 @@
     <div>
       <Heador></Heador>
       <Rslider></Rslider>
+      <Daily></Daily>
+      <In></In>
+      <More></More>
       <Footor cname="mfooter"></Footor>
       <Navbar></Navbar>
     </div>
@@ -12,12 +15,18 @@ import Heador from "../public/header";
 import Footor from "../public/footer.vue";
 import Navbar from "../public/navbar.vue";
 import Rslider from "./rslider";
+import Daily from './daily';
+import In from './in';
+import More from './more';
 export default {
   components: {
     Heador,
     Footor,
     Navbar,
-    Rslider
+    Rslider,
+    Daily,
+    In,
+    More
   }
 };
 </script>

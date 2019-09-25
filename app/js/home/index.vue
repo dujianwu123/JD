@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import Heador from '../public/header';
+import Heador from '../public/header.vue';
 import Footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
-import Hslider from './hslider';
-import Novie from './novice';
+import Hslider from './hslider.vue';
+import Novie from './novice.vue';
 import Borrow from './borrow';
 import Money from './money';
 import Product from './product';
