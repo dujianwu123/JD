@@ -54,7 +54,6 @@ export default {
     bottom: 0;
     height: 100px;
     margin: 0;
-    z-index: 1000;
     >h4{
       display: none;
     }
@@ -65,11 +64,12 @@ export default {
         text-align: center;
         a{
           text-decoration: none;
+          display: block;
         }
         img{
           width: 44px;
           height: 44px;
-          display: inline-block;
+          display: block;
           margin: 12px auto 6px;
         }
         p{
